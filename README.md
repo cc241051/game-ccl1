@@ -25,7 +25,6 @@ Art:
 - drew floor texture
 
 20.01.2025
-(Art only)
 - Made the spritesheet for the main character and made the sprites switch based on the direction of walking
 - Made the spritesheet for drinks
 - Made spritesheet for popups
