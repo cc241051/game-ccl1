@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>The Tavern</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="icon" href="favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="gameContainer">
+
+    <div id="gameStartScreen">
+      <div class="container">
+        <span>The Tavern</span>
+        <button class="button" id="start">Start</button>
+        <!-- <button class="button" id="tutorial">Tutorial</button> -->
+      </div>
+
+    </div>
+
+    <div id="gameEndScreen">
+      <div class="container">
+      <span id="endScore">Score:</span>
+      <button class="button" id="restart">Restart</button>
+    </div>
+    </div>
+
+    <div id="topBar">
+      <div id="timer"></div>
+      <div id="score"></div>
+    </div>
+
+    <canvas id="canvas" width="900" height="700"></canvas>
+  </div>
+
+  <script type="module" src="./scripts/modules/global.js"></script>
+  <script type="module" src="./scripts/modules/input.js"></script>
+  <script type="module" src="./scripts/modules/main.js"></script>
+
+</body>
+
+</html>

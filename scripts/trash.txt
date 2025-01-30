@@ -1,0 +1,35 @@
+// switch (object.type) {
+                        //     case 'Beer':
+                        //         if (this.animationData.currentSpriteIndex == 0) {
+                        //             object.x = object.ogX;
+                        //             object.y = object.ogY;
+                        //             object.isHoldingDrink = false;
+                        //             object.active = false;
+                        //             this.delivered = true;
+                        //             this.deactivatePopup();
+                        //             global.isHoldingDrink = false;
+                        //         }
+                        //         break;
+                        //     case 'Shot':
+                        //         if (this.animationData.currentSpriteIndex == 1) {
+                        //             object.x = object.ogX;
+                        //             object.y = object.ogY;
+                        //             object.isHoldingDrink = false;
+                        //             object.active = false;
+                        //             this.delivered = true;
+                        //             this.deactivatePopup();
+                        //             global.isHoldingDrink = false;
+
+                        //         } 
+                        //         break;
+                        // }
+
+from progressBar.update:
+
+ // for (let i = 0; i < global.allGameObjects.length; i++) {
+            //     let object = global.allGameObjects[i];
+            //     if (object.name == 'Drink' && this.type == object.type && object.active == false) {
+            //         console.log(object.type); //test
+            //         object.active = true;
+            //     }
+            // }

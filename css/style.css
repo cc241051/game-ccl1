@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+}
+
+#gameContainer {
+    position: relative;
+    width: 900px; /* change according to your game */
+    height: 700px; /* change according to your game */
+    margin: auto;
+}
+
+#canvas {
+    position: absolute;
+    display: none;
+    background-color: aquamarine;   
+}
+
+#gameStartScreen{
+    background-image: url('../images/startScreen1.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-color: white;
+    width: 900px;
+    height: 760px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.container{
+    
+    margin-left: 20px;
+    height: 200px;
+    width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Pixelify Sans", serif;
+    font-size: 40px;
+    color: wheat;
+}
+
+.button{
+    background-color: #7c4522;
+    width: 250px;
+    height: 70px;
+    border-left: 7px solid #482f1e;
+    border-right: 7px solid #261a1a;
+    border-bottom: 7px solid #261a1a;
+    border-top: 7px solid #9c5e36;
+
+    font-family: "Pixelify Sans", serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: wheat;
+}
+
+
+.button:hover{
+    background-color: #9c5e36;
+    border-top: 7px solid #c0a183;
+}
+
+#gameEndScreen{
+    background-image: url('../images/startScreen1.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-color: white;
+    width: 900px;
+    height: 760px;
+
+    display: none;
+    align-items: center;
+    justify-content: center;;
+}
+#topBar{
+    background-color: rgb(149, 96, 58);
+    height: 40px;
+    width: 900px;
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-around;
+    background-image: url('../images/topBarV2.png');
+    background-size: cover;
+   
+    font-family: "Pixelify Sans", serif;
+    font-size: 25px;
+    color: wheat;
+    
+}
+
+/* add styles for other HTML elements of your game */
